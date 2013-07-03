@@ -15,6 +15,10 @@
   #slide{
     margin: 0 -20px;
   }
+
+  footer p{
+    margin-right: 0;
+  }
 }
 
 a.anchor{display: block; position: relative; top: -50px; visibility: hidden;}
@@ -37,7 +41,8 @@ footer{
 }
 
 footer p{
-  padding-top: 20px;
+  padding: 20px 0;
+  margin-right: 20px;
 }
 
 .wrapper{
@@ -69,20 +74,7 @@ footer p{
 .navbar a:hover > i {
   opacity: 1;
 }
-/*
-section {
-  margin-top:20px;
-}
 
-.subhead {
-  padding-bottom: 0;
-  margin-bottom: 9px;
-}
-
-.subhead h1 {
-  font-size: 54px;
-}
-*/
 .facebook {
   background: url('../img/facebook_icon.jpg') no-repeat;
   display: inline-block;
@@ -93,4 +85,8 @@ section {
 .social {
   float: left;
   padding: 5px 5px 0 0;
+}
+
+.media .badge{
+  display: none;
 }
