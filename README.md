@@ -1,4 +1,4 @@
-Levi9
+Levi9 Meetup promo site
 ================
 
-[levi9.github.io](http://levi9.github.io)
+[meetup.levi9.com](http://meetup.levi9.com)

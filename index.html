@@ -16,122 +16,141 @@
   <![endif]-->
   </head>
   <body>
+  <div class="navbar navbar-fixed-top">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="brand" href="#registration"><strong>Levi9 Meetup</strong></a>
-          <ul class="nav" id="main-menu-left">
-            <li><a href="#agenda">Программа</a></li>
-            <li><a href="#info">Место проведения</a></li>
-          </ul>
-          <div class="pull-right">
-            <a href="https://www.facebook.com/Levi9Ukraine" class="social"><i class="facebook"></i></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav" id="main-menu-left">
+              <li><a href="#agenda">Программа</a></li>
+              <li><a href="#info">Место проведения</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li><a href="https://www.facebook.com/Levi9Ukraine" class="social"><i class="facebook"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <div id="slide">
-      <div class="container">
-        <div class="wrapper" id="registration">
-          <h1>Levi9 Meetup</h1>
-          <h3>7 сентября 2013 года, Донецк</h3>
-          <p>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br/>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br/>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<br/>
-          </p>
-          <br/>
-          <p><a href="#registrationModal" class="btn btn-primary btn-large" role="button" data-toggle="modal">Регистрация</a></p>
-          <!-- <iframe width="100%" height="400" src="http://www.ustream.tv/embed/13661918?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
-        </div>
-      </div>
-    </div>
+  </div>
+  <div id="slide">
+    <a href="https://github.com/Levi9/levi9.github.io"><img id="github-badge" src="/img/forkme.png" alt="Fork me on GitHub"></a>
     <div class="container">
-      <section>
-        <a class="anchor" id="agenda"></a>
-        <div class="page-header">
-          <h3>Программа</h3>
+      <div class="wrapper" id="registration">
+        <h1>Levi9 Meetup</h1>
+        <h3>7 сентября 2013 года, Донецк</h3>
+        <p>
+        <br/>
+        </p>
+        <br/>
+        <p><a href="#registrationModal" class="btn btn-primary btn-large" role="button" data-toggle="modal">Регистрация</a></p>
+        <!-- <iframe width="100%" height="400" src="http://www.ustream.tv/embed/13661918?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;"></iframe> -->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <section>
+      <a class="anchor" id="agenda"></a>
+      <div class="page-header">
+        <h3>Программа</h3>
+      </div>
+      <div class="media">
+        <h4><span class="label label-success"><i class="icon-white icon-time"></i> </span> → Эксплуатация Clojure среди Java</h4>
+        <img class="pull-left img-rounded media-object" data-src="img/speakers/vladimir.porotnikov.jpg" style="width: 92px; height: 92px;" src="img/speakers/vladimir.porotnikov.jpg">
+        <div class="media-body">
+          <h5 class="media-heading">Владимир Кириллов</h5>
+          <h6 class="media-heading muted">Universal Mind, Украина</h6>
+          <p>
+            Молодой инженер в самом расцвете сил. Эксплуатировал много джавы в цдн, доэксплуатировался и начал на ней писать. Потом уволился, пришел на другую работу, а там опять джава. Решил писать на Clojure и очень доволен. В мире IT известен как @darkproger
+          </p>
+          <p>
+            Clojure — достаточно выразительный язык, самая функциональная реализация которого построена в экосистеме JVM. В докладе будут рассмотрены возможности языка, которые существенно упрощают интеграцию кода на Clojure с чужим кодом на Java, практика организации (в том числе непрерывного) развертывания программ на Clojure внутри Apache Tomcat, а также инструменты интроспекции уже запущенных и работающих программ.
+          </p>
         </div>
-        <div class="media">
-          <h5><span class="badge badge-info">10:00 &mdash; 11:00</span> Lorem ipsum dolor sit amet.</h5>
-          <img class="pull-left img-rounded media-object" data-src="img/speakers/sample.jpg" style="width: 92px; height: 92px;" src="img/speakers/sample.jpg">
-          <div class="media-body">
-            <h5 class="media-heading">Speaker name, Company</h5>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-          </div>
+      </div>
+      <div class="media">
+        <h4><span class="label label-success"><i class="icon-white icon-time"></i> </span> → Gamification</h4>
+        <img class="pull-left img-rounded media-object" data-src="img/speakers/dmitro.maleev.jpg" style="width: 92px; height: 92px;" src="img/speakers/dmitro.maleev.jpg">
+        <div class="media-body">
+          <h5 class="media-heading">Дмитрий Малеев</h5>
+          <h6 class="media-heading muted">SoftServe, Украина</h6>
+          <p>
+            Консультант, лидер Lviv .NET User Group. Спикер на украинских и зарубежных конференциях, получил  IT Оскар в номинации "Лучший программист" и просто очень веселый человек.
+          </p>
+          <p>
+            Геймификация уже давно используется не только в развлекательных сервисах, но и в обучении, и в здравохранении. Что это такое, где и как применить, мобильная геймификация, как начать использовать геймификацию самостоятельно и много примеров  её реализации.
+          </p>
         </div>
-        <div class="media">
-          <h5><span class="badge badge-info">10:00 &mdash; 11:00</span> Lorem ipsum dolor sit amet.</h5>
-          <img class="pull-left img-rounded media-object" data-src="img/speakers/sample.jpg" style="width: 92px; height: 92px;" src="img/speakers/sample.jpg">
-          <div class="media-body">
-            <h5 class="media-heading">Speaker name, Company</h5>
-             Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-          </div>
+      </div>
+      <div class="media">
+        <h4><span class="label label-success"><i class="icon-white icon-time"></i> </span> → «Портрет профессионального разработчика»</h4>
+        <img class="pull-left img-rounded media-object" data-src="img/speakers/nikolay.alimenkov.jpg" style="width: 92px; height: 92px;" src="img/speakers/nikolay.alimenkov.jpg">
+        <div class="media-body">
+          <h5 class="media-heading">Николай Алименков</h5>
+          <h6 class="media-heading muted">XP Injection, Украина</h6>
+          <p>
+            Практикующий Java технический лидер и Scrum Master. Эксперт в разработке на Java, Agile инженерных практиках и управлении проектами. Основатель и тренер тренинг-центра XP Injection. Организатор и идеолог конференций Selenium Camp, JEEConf, XP Days Ukraine и IT Brunch. Основатель действующего «Клуба анонимных разработчиков»
+          </p>
+          <p>
+            Какой он, современный профессиональный разработчик? Что должен знать и уметь, чтобы не только работать на интересном проекте и получать высокую зарплату сегодня, но и иметь стабильный завтрашний день? Технологии и процессы не стоят на месте, а вместе с ними и требования к разработчикам. Чтобы оставаться «на плаву» надо работать над своими знаниями и навыками. Именно об этом мы и поговорим.
+          </p>
         </div>
-        <div class="media">
-          <h5><span class="badge badge-info">10:00 &mdash; 11:00</span> Lorem ipsum dolor sit amet.</h5>
-          <img class="pull-left img-rounded media-object" data-src="img/speakers/sample.jpg" style="width: 92px; height: 92px;" src="img/speakers/sample.jpg">
-          <div class="media-body">
-            <h5 class="media-heading">Speaker name, Company</h5>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-          </div>
-        </div>
-        <div class="media">
-          <h5><span class="badge badge-info">10:00 &mdash; 11:00</span> Lorem ipsum dolor sit amet.</h5>
-          <img class="pull-left img-rounded media-object" data-src="img/speakers/sample.jpg" style="width: 92px; height: 92px;" src="img/speakers/sample.jpg">
-          <div class="media-body">
-            <h5 class="media-heading">Speaker name, Company</h5>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <a class="anchor" id="info"></a>
-        <div class="page-header">
-          <h3>Место проведения</h3>
-        </div>
-        <div class="row">
-          <div class="span4">
-            <h4>Адрес</h4>
-            <address>
-            <strong>«Донбасс Арена»</strong><br>
-            ул. Челюскинцев, 189е<br>
-            Донецк, Украина<br>
-            </address>
-            <div>
-              <strong>Контакты</strong><br>
-              Наталия Домникова<br>
-              <a href="mailto:info@levi9.com">n.domnikova@levi9.com</a><br>
-              Skype: <a href="skype:sheremeteva_n?chat">sheremeteva_n</a><br>
-              <abbr title="Телефон">тел: </abbr><a href="tel:+380508404264">+38 (050) 840-42-64</a><br><br>
-            </div>
-          </div>
-          <div class="span8">
-            <h4>Карта</h4>
-            <div>
-              <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=oncm99xFl-ymT3cYMyKO_TdyYmo3p6b1&width=100%&height=450"></script>
-            </div>
+    <section>
+      <a class="anchor" id="info"></a>
+      <div class="page-header">
+        <h3>Место проведения</h3>
+      </div>
+      <div class="row">
+        <div class="span4">
+          <h4>Адрес</h4>
+          <address>
+          <strong>«Донбасс Арена»</strong><br>
+          ул. Челюскинцев, 189е<br>
+          Донецк, Украина<br>
+          </address>
+          <div>
+            <strong>Контакты</strong><br>
+            Наталия Домникова<br>
+            <a href="mailto:info@levi9.com">n.domnikova@levi9.com</a><br>
+            Skype: <a href="skype:sheremeteva_n?chat">sheremeteva_n</a><br>
+            <abbr title="Телефон">тел: </abbr><a href="tel:+380508404264">+38 (050) 840-42-64</a><br><br>
           </div>
         </div>
-      </section>
+        <div class="span8">
+          <h4>Карта</h4>
+          <div>
+            <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=oncm99xFl-ymT3cYMyKO_TdyYmo3p6b1&width=100%&height=450"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="pull-left"><a href="http://levi9.com"><img id="logo" src="/img/logo.png"/></a></p>
+      <p class="muted credit pull-right"><small>&copy; 2013 <a href="http://levi9.com">Levi9 Ukraine</a></small></p>
     </div>
-    <footer>
-      <div class="container">
-        <p class="muted credit pull-right">&copy; 2013 <a href="http://levi9.com">Levi9 Ukraine</a></p>
-      </div>
-    </footer>
-    <div id="registrationModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="title" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="title">Регистрация</h3>
-      </div>
-      <div class="modal-body">
-        <iframe src="https://docs.google.com/forms/d/1zlOiLM5kFUILfDO1fCUP2pzSc3JwOb2YMSvDdV5YnMM/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
-      </div>
+  </footer>
+  <div id="registrationModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="title" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="title">Регистрация</h3>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div class="modal-body">
+      <iframe src="https://docs.google.com/forms/d/1zlOiLM5kFUILfDO1fCUP2pzSc3JwOb2YMSvDdV5YnMM/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 <!-- Круто сверстано, да? -->
