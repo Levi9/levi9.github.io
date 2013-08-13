@@ -59,6 +59,8 @@ footer p{
   padding: 80px 20px 20px 20px;
   text-shadow: 0 1px 1px rgba(0,0,0,.9);
   color: #fff;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .wrapper iframe{
@@ -93,7 +95,7 @@ footer p{
 }
 
 .navbar .nav>li>a.social {
-  padding: 8px 2px 4px 2px;
+  padding: 8px 2px 4px 14px;
 }
 
 .media-heading.muted{
@@ -107,4 +109,15 @@ footer p{
 #github-badge{
   float: right;
   margin: 50px 0;
+}
+
+.media:not(:hover) img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%); 
+  -o-filter: grayscale(100%); 
+  filter: url(resources.svg#desaturate);
+  filter: gray;
+  -webkit-filter: grayscale(1);
 }
