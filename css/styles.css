@@ -67,7 +67,21 @@ footer p{
   margin-top: -40px;
 }
 
-.brand, .wrapper > h1, .wrapper > h3{
+.wrapper #heading{
+  display: inline-block;
+}
+
+.wrapper img{
+  vertical-align: top;
+  margin-right: 20px;
+  width: 160px;
+}
+
+.wrapper p{
+  margin-top: 40px;
+}
+
+.brand, .wrapper h1, .wrapper h3{
   font-family: 'Lobster', cursive;
 }
 
