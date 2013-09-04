@@ -7,13 +7,10 @@
     margin-bottom: 0px;
   }
 
-  .wrapper{
-    padding: 60px 20px 20px 20px !important;
-  }
-
   #github-badge{
      margin: 0 !important;
   }
+ 
 }
 
 @media (max-width: 767px){
@@ -69,6 +66,19 @@ footer p{
 
 .wrapper #heading{
   display: inline-block;
+}
+
+#video{
+  position: relative;
+}
+
+#video span{
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  line-height: 26px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
 }
 
 .wrapper img{
